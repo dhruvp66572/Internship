@@ -1,0 +1,20 @@
+git init 
+- to initialized repo
+
+git clone 
+- to clone repo from github
+
+git status
+- to check status of your repo/file 
+
+git branch -m mian master
+- change branch
+
+git branch -a
+- show all branches
+
+git commit -m 'Message'
+- for add commit 
+
+git push
+- to push repo to github
