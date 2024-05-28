@@ -17,12 +17,8 @@
             background-color: #343a40;
             color: #f8f9fa;
             padding: 10px;
-        }
-
-        nav {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            width: 100%;
         }
 
         nav h1 {
@@ -48,25 +44,39 @@
             padding: 10px;
             text-align: center;
         }
-    </style>
-</head>
 
-<body>
-    <header>
-        <nav>
-            <h1 onclick="
-            alert('Welcome to Coder Cafe!');
-            " style="margin: 0;
-            cursor: pointer;
-            ">Coder Cafe</h1>
-            <a href="index.html" style="
+        nav a:hover {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
             color: #f8f9fa;
             text-decoration: none;
             background-color: #343a40;
             padding: 5px 10px;
             border-radius: 5px;
-            ">Menu</a>
-        </nav>
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 onclick="alert('Welcome to Coder Cafe!');" style="margin: 0; cursor: pointer;">Coder Cafe</h1>
+        <div style="flex-grow: 1;">
+        </div>
+        <div style="align-content: center;">
+            <nav>
+                <a href="index.html">Menu</a>
+                <a href="contact.html">Contact</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+        </div>
     </header>
     <section>
         <div>
