@@ -1,0 +1,70 @@
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #4CAF50;
+    width: 270px;
+}
+
+.header h2 {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.header img:hover {
+    cursor: pointer;
+}
+
+.siderbar-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #E7E9EB;
+    width: 270px;
+    height: 26.6em;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.sidebar-item-atbottom {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-top: auto;
+}
+
+.sidebar-item-atbottom:hover {
+    background-color: #D3D3D3;
+}
+
+.sidebar-item-atbottom img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sidebar-item:hover {
+    background-color: #D3D3D3;
+}
+
+
+
