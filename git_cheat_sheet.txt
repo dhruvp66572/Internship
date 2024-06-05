@@ -1,20 +1,74 @@
+git config --global user.name "Your Name"
+- to sets the name 
+
+git config --global user.email "Your Email"
+- to sets the Email
+
 git init 
 - to initialized repo
 
 git clone 
 - to clone repo from github
 
+git add 
+- to add all Change in to Stagging Area 
+
+git diff 
+- Shows the differences between the working directory and the staging area.
+
+git commit -m "Commit Message"
+- Commits the staged changes to the repository with a commit message.
+
 git status
 - to check status of your repo/file 
 
-git branch -m mian master
-- change branch
+git log 
+- Displays the commit history for the current branch.
 
-git branch -a
-- show all branches
+git branch 
+- Lists all the branches in the repository.
 
-git commit -m 'Message'
-- for add commit 
+git branch <branch_name> 
+- Creates a new branch with the specified name.
 
-git push
-- to push repo to github
+git checkout <branch_name> 
+- Switches to the specified branch.
+
+git checkout -b <new_branch_name> 
+- Creates and switches to a new branch with the specified name.
+
+git branch -d <branch_name> 
+- Deletes the specified branch.
+
+git merge <branch_name> 
+- Merges the specified branch into the current branch.
+
+git remote add origin <repository_url> 
+- Adds a remote repository with the specified URL and assigns it the name 'origin'.
+
+git remote -v 
+- Lists all remote repositories and their URLs.
+
+git push origin <branch_name> 
+- Pushes the commits from the local branch to the remote repository.
+
+git pull origin <branch_name> 
+- Fetches and merges changes from the remote repository into the current branch.
+
+git fetch origin - Fetches changes from the remote repository but does not merge them.
+
+git rebase <branch_name> 
+- Applies commits from the current branch on top of another branch.
+
+git reset <file> 
+- Unstages a file from the staging area but preserves its changes in the working directory.
+
+git reset --hard <commit> 
+- Resets the working directory, staging area, and current branch to a specified commit, discarding all changes.
+
+git push origin <tag_name> 
+- Pushes the specified tag to the remote repository.
+
+git rm <filename> 
+- Removes the specified file from the working directory and stages the removal.
+
