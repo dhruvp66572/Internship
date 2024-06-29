@@ -32,7 +32,7 @@
     flex-direction: column;
     background-color: #E7E9EB;
     width: 270px;
-    height: 26.6em;
+    height: 100%;
 }
 
 .sidebar-item {
